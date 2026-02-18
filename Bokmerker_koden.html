@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Bokmerker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .category {
+            margin-bottom: 30px;
+        }
+
+        .links {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #333;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            background: #ecf0ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mine Bokmerker</h1>
+    <p>Alle mine viktigste nettsteder samlet på ett sted</p>
+</header>
+
+<main>
+
+
+    <div class="category">
+        <h2>Nyheter</h2>
+        <div class="links">
+            <a class="card" href="https://www.vg.no" target="_blank">Verdens Gang</a>
+            <a class="card" href="https://www.aftenbladet.no" target="_blank">Stavanger Aftenblad</a>
+            <a class="card" href="https://www.tek.no" target="_blank">Tek.No</a>
+        </div>
+    </div>
+
+
+    <div class="category">
+        <h2>Progging</h2>
+        <div class="links">
+            <a class="card" href="https://github.com" target="_blank">GitHub</a>
+            <a class="card" href="https://git.app.uib.no" target="_blank">GitLab</a>
+            <a class="card" href="https://stackoverflow.com" target="_blank">Stack Overflow</a>
+            <a class="card" href="https://www.w3schools.com" target="_blank">W3Schools</a>
+            <a class="card" href="https://chat.openai.com" target="_blank">ChatGPT</a>
+        </div>
+    </div>
+
+
+    <div class="category">
+        <h2>Underholdning</h2>
+        <div class="links">
+            <a class="card" href="https://netflix.com" target="_blank">Netflix</a>
+            <a class="card" href="https://play.tv2.no" target="_blank">Tv2Play</a>
+            <a class="card" href="https://play.hbomax.com" target="_blank">MAX</a>
+            <a class="card" href="https://youtube.com" target="_blank">YouTube</a>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    © 2026 - Laget av TommyT
+</footer>
+
+</body>
+</html>
